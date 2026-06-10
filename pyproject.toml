@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rollingstats"
+version = "0.0.1"
+description = "Fast rolling statistics for Python with a C backend"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Łukasz Krawczyk", email = "lukasz.krawczyk04@gmail.com" }
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://NorseJalapeno.github.io/rollingstats/"
+Repository = "https://github.com/NorseJalapeno/rollingstats"
